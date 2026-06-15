@@ -1,0 +1,218 @@
+*{
+   padding: 0%;
+   margin: 0;
+   background-color: rgb(60, 3, 3);
+   box-sizing: border-box;
+}
+.navbars{
+    display: flex;
+    margin-right: 7%;
+    margin-left: 2%;
+}
+.order{
+    color: floralwhite;
+    border: 2px solid bisque;
+    padding: 12px 32px;
+    margin-top: -12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo{
+    color: floralwhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+.nav a{
+    text-decoration: none;
+    color: floralwhite;
+}
+.nav li{
+    justify-content: space-between;
+}
+.shop_icon{
+color: floralwhite;
+margin-top: -10px;
+border: bisque;
+}
+ul{
+    color: floralwhite;
+     display: flex;
+     justify-content:space-evenly;
+     list-style: none;
+     padding-left: 15%;
+     margin-bottom: 25px;
+}
+
+.banner{
+    /* background-image: url(tamanna-rumee-eqQ9jP8Dn9c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 80vh;
+    margin-right: 15%;
+    margin-left: 5%;
+    color: bisque;
+    word-spacing: 20px;
+    margin-top: 50px;
+}
+.banner_image{
+    flex-shrink: 0;
+}
+.top{
+    color: floralwhite;
+    font-size: 60px;
+    border-bottom: 2px solid bisque;
+    padding-bottom: 20px;
+}
+.motto{
+    color: floralwhite;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+}
+.search_container{
+    gap: 20px;
+}
+.menu{
+    cursor: pointer;
+    background-color: bisque;
+    color: rgb(60, 3, 3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 1px;
+    border:2px solid bisque;
+    display: inline-block;
+    padding: 12px 32px;
+    min-width: 180px;
+}
+.story{
+    cursor: pointer;
+   background-color: rgb(60, 3, 3);
+    color: floralwhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 20px;
+    border:2px solid bisque;
+    display: inline-block;
+    padding: 12px 32px;
+    min-width: 180px;
+}
+.banner_image img{
+    width: 100%;
+    max-width:600px;
+    border-radius: 12px;
+    margin-top: 0;
+}
+.main{
+    margin-top: -90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 10%;
+    color: floralwhite;
+    padding-bottom: 20px;
+     border-bottom:1px solid bisque ;
+}
+.main div h2{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.main div p{
+    align-items: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.types{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 15%;
+    color: floralwhite;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 15%;
+    color: floralwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid bisque;
+    padding-bottom: 20px;
+}
+.taste{
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid bisque;
+}
+.infos{
+    font-weight: bolds;
+    color: floralwhite;
+    margin-top: 19px;
+    margin-left: 13%;
+    margin-right: 5%;
+    word-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.offers{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe{
+    margin-bottom: -30px;
+    display: flex;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: 2px solid bisque;
+    overflow: hidden;
+}
+.subscribe button{
+    padding: 10px 45px;
+    font-size: 14px;
+    color: rgb(60, 3, 3);
+    border: none;
+    font-weight: bold;
+    background-color: bisque;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.subscribe input{
+    flex: 1;
+    color: floralwhite;
+    font-size: 17px;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: floralwhite;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-left: 2%;
+    line-height: 1.5;
+}
+.copy{
+    color: floralwhite;
+    justify-content: center;
+    display: flex;
+}
